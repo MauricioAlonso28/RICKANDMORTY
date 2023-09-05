@@ -1,0 +1,111 @@
+.cardsContainer {
+    white-space: normal;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 8%;
+    margin-top: 11%;
+    position: relative;
+    height: 100%;
+}
+.cardItem {
+    height: 350px;
+    width: 200px;
+    position: relative;
+    background-color: rgba(108, 173, 230, 0.312);
+    box-shadow: 0px 0px 10px 5px rgba(64, 168, 212, 0.708);
+    border-radius: 10px;
+    font-size: 8px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+.cardItem:hover {
+    transform: scale(1.2);
+    font-size: 10px;
+    background-color: rgba(29, 23, 133, 0.564);
+}
+.imgCard {
+    position: relative;
+    height: 85%;
+    width: 100%;
+    border-radius: 10px 10px 1px 1px;
+    transition: all 0.3s ease-in-out;
+    top: 0;
+}
+.name {
+    position: absolute;
+    bottom: 17%;
+    padding: 3px 15px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(123, 175, 243);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    margin: 0px 5px;
+}
+.description {
+    position: relative;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px 1px 10px 10px;
+}
+.features {
+    color: rgb(0, 255, 229);
+    transition: all 0.3s ease-in-out;
+    font-size: 12px;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+.buttonClose {
+    position:absolute;
+    background-color: rgb(249, 244, 244);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px 1px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 4;
+}
+.buttonFavorite {
+    position: absolute;
+    right: 0;
+    background:none;
+    border: none;
+    z-index: 4;
+    transition: all 0.3s ease-in-out;
+    font-size: 17px;
+    cursor:pointer;
+}
+.buttonClose:hover {
+    padding: 6px;
+}
+.cardItem:hover .features {
+    color: rgb(223, 214, 214);
+    font-size: 13px;
+}
+
+.cardItem:hover .imgCard {
+    filter: invert(85%) contrast(85%);
+}
+
+.cardItem:hover .name {
+    background-color: aliceblue;
+    font-size: 13px;
+}
+.cardItem:hover .buttonClose {
+    background-color: black;
+    color: white;
+}
+.cardItem:hover .buttonFavorite {
+    font-size: 19px;
+}
