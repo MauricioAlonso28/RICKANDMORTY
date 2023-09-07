@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     margin-top: 200px;
+    width: 100%;
 }
 .selectors {
-    /* background: red; */
+    margin-bottom: -6%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
-    /* margin-top: 200px; */
 }
 
 .selector {
