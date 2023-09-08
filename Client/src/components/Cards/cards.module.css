@@ -109,3 +109,39 @@
 .cardItem:hover .buttonFavorite {
     font-size: 19px;
 }
+@media (width <= 1024px) or (height <= 576px) {
+    .cardsContainer {
+        margin-top: 13%;
+    }
+    .cardItem {
+        height: 240px;
+        width: 130px;
+        font-size: 6px;
+    }
+    .cardItem:hover {
+        font-size: 7px;
+    }
+    .name {
+        padding: 3px 12px;
+    }
+    .features {
+        font-size: 8px;
+        padding: 0px 15px;
+    }
+    .buttonClose {
+        padding: 5px;
+        font-size: 8px;
+    }
+    .buttonFavorite {
+        font-size: 10px;
+    }
+    .cardItem:hover .features {
+        font-size: 10px;
+    }
+    .cardItem:hover .name {
+        font-size: 10px;
+    }
+    .cardItem:hover .buttonFavorite {
+        font-size: 13px;
+    }
+}

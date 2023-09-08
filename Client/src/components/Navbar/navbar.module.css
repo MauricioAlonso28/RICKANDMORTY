@@ -76,3 +76,52 @@ img {
     background-color: #243c8baf;
     color: white;
 }
+@media (width <= 1024px) or (height <= 576px) {
+    .containerButtons {
+        gap: 20px;
+    }
+    .buttonsNav {
+        padding: 6px 10px;
+        font-size: 16px;
+        width: 100px;
+        
+    }
+    img {
+        position: absolute;
+        height: 80px;
+        width: 180px;
+        top: 20px;
+    }
+    .searchBar {
+        padding: 10px;
+    }
+    .input, .button {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+@media (width <= 768px){
+    .containerButtons {
+        gap: 10px;
+    }
+    .buttonsNav {
+        padding: 3px 5px;
+        font-size: 12px;
+        width: 60px;
+        border-radius: 6px;
+    }
+    img {
+        position: absolute;
+        height: 60px;
+        width: 150px;
+        top: 20px;
+    }
+    .searchBar {
+        padding: 5px;
+    }
+    .input, .button {
+        padding: 3px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+}
