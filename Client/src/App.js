@@ -8,7 +8,7 @@ import Detail from './components/Detail/Detail';
 import About from './components/About/About';
 import Favorites from './components/Favorites/Favorites';
 
-const URL_API = 'http://localhost:3001/rickandmorty/character/'
+const URL_API = 'https://rickandmortybackend-9jv6.onrender.com/rickandmorty/character/'
 
 function App() {
  
