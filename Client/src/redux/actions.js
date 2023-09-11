@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { ADD_FAV, FILTER, ORDER, REMOVE_FAV } from "./actions-types";
-const ENDPOINT = 'http://localhost:3001/rickandmorty/fav';
+const ENDPOINT = 'https://rickandmortybackend-9jv6.onrender.com/rickandmorty/fav';
 
 export const addFav = (character) => {
    //ASYNC AWAIT VERSION
@@ -21,7 +21,7 @@ export const addFav = (character) => {
 
 
    // PROMISE VERSION
-   //  const endpoint = 'http://localhost:3001/rickandmorty/fav';
+   //  const endpoint = 'https://rickandmortybackend-9jv6.onrender.com//fav';
    //  return (dispatch) => {
    //     axios.post(endpoint, character).then(({ data }) => {
    //        return dispatch({
