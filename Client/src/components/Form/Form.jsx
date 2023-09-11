@@ -13,7 +13,9 @@ function Form() {
     // FUNCTIONS
     const handleSubmit = (event) => {
         event.preventDefault();
-        setAccess(true)
+        setTimeout(() => {
+            setAccess(true)
+        }, 500);
     }
     const handleChange = (event) => {
         setUserData({...userData, [event.target.name]: event.target.value})
@@ -22,16 +24,13 @@ function Form() {
     // EFFECTS
     useEffect(() => {
         setTimeout(() => {
-            console.log(10);
-        }, 100);
-        setTimeout(() => {
             access && navigate('/home')
         }, 5000);
     }, [access, navigate])
 
     return (
         <>
-            <form className={Style.form}>
+            <form className={access ? Style.hidden : Style.form}>
                 <img src={require('../../img/form.jpg')} className={Style.img} alt="Rick&Morty" />
                 <div className={Style.sign}>
                     <label className={Style.label}>Nickname:</label>
@@ -44,7 +43,12 @@ function Form() {
                     onClick={handleSubmit}>
                     Enter
                 </button>
-            </form> 
+            </form>
+            <div className={access ? Style.notHidden : Style.hidden}>
+                <div className={Style.welcome}>
+                    WELCOME {(userData.nickname).toUpperCase()}
+                </div>
+            </div> 
         </>
     );
 }

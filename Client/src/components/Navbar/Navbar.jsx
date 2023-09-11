@@ -14,8 +14,12 @@ function Navbar({onSearch}) {
 
     return (
         <>  
-            <img src={img} className={Style.title}></img>  
+            <img src={img} className={Style.title} alt="rickandmorty title"></img>  
             <nav className={Style.navbar}>
+                <div className={Style.pInput}>
+                    <button className={Style.pButton} onClick={() => onSearch(id)}>+</button>
+                    <input className={Style.input} type='search' value={id} onChange={handleChange} placeholder="Insert ID"/>
+                </div>
                 <div className={Style.searchBar}>
                     <input className={Style.input} type='search' value={id} onChange={handleChange}/>
                     <button className={Style.button} onClick={() => onSearch(id)}>Add</button>

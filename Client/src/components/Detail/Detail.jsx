@@ -3,7 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL_API = 'http://localhost:3001/rickandmorty/character/'
+const URL_API = 'https://rickandmortybackend-9jv6.onrender.com/rickandmorty/character/'
 
 function Detail(){
    const { id } = useParams();
