@@ -44,3 +44,16 @@
         font-size: 11px;
     }
 }
+@media (width <= 426px) {
+    .container {
+        margin-top: 100px;
+    }
+    .selectors {
+        gap: 30px;
+    }
+    .selector {
+        padding: 2px 5px;
+        width: 80px;
+        font-size: 9px;
+    }
+}

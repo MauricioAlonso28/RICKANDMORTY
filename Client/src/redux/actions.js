@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { ADD_FAV, FILTER, ORDER, REMOVE_FAV } from "./actions-types";
-const ENDPOINT = 'https://rickandmortybackend-9jv6.onrender.com/rickandmorty/fav';
+const ENDPOINT = 'http://localhost:3001/rickandmorty/fav';
 
 export const addFav = (character) => {
    //ASYNC AWAIT VERSION
@@ -21,7 +21,7 @@ export const addFav = (character) => {
 
 
    // PROMISE VERSION
-   //  const endpoint = 'https://rickandmortybackend-9jv6.onrender.com/rickandmorty/fav';
+   //  const endpoint = 'http://localhost:3001/rickandmorty/fav';
    //  return (dispatch) => {
    //     axios.post(endpoint, character).then(({ data }) => {
    //        return dispatch({
@@ -30,9 +30,9 @@ export const addFav = (character) => {
    //        });
    //     });
    //  };
- };
+};
 
- export const removeFav = (id) => {
+export const removeFav = (id) => {
     //ASYNC AWAIT VERSION
     return async (dispatch) => {
       try {
@@ -48,20 +48,7 @@ export const addFav = (character) => {
          })
       }
     } 
-   
-   
-   
-   //PROMISE VERSION
-   // const endpoint = 'https://rickandmortybackend-9jv6.onrender.com/rickandmorty/fav/' + id;
-   //  return (dispatch) => {
-   //     axios.delete(endpoint).then(({ data }) => {
-   //        return dispatch({
-   //           type: 'REMOVE_FAV',
-   //           payload: data,
-   //     });
-   //     });
-   //  };
- };
+};
 
 export const filterCards = (gender) => {
     return {

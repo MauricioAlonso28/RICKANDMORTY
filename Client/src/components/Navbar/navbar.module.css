@@ -76,6 +76,9 @@ img {
     background-color: #243c8baf;
     color: white;
 }
+.pInput {
+    display: none;
+}
 @media (width <= 1024px) or (height <= 576px) {
     .containerButtons {
         gap: 20px;
@@ -123,5 +126,63 @@ img {
         padding: 3px;
         font-size: 12px;
         border-radius: 6px;
+    }
+}
+@media (width <= 426px) {
+    .title {
+        display: none;
+    }
+    .searchBar {
+        display: none;
+    }
+    .pInput {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        background-color: rgba(25, 64, 238, 0.127);
+        padding: 2px;
+        border-radius: 10px;
+        gap: 4px;
+    }
+    .input {
+        padding: 2px;
+        padding-left: 5px;
+        font-size: 11px;
+        width: 80px;
+    }
+    .pButton {
+        padding: 3px;
+        font-size: 10px;
+        border: none;
+        text-align: center;
+        border-radius: 20%;
+        font-weight: bold;
+        width: 18px;
+        color: white;
+        background-color: rgba(92, 220, 237, 0.69);
+    }
+}
+@media (width < 321px) {
+    .pInput {
+        margin-left: 5px;
+    }
+    .input {
+        padding: 2px;
+        padding-left: 5px;
+        font-size: 9px;
+        width: 65px;
+    }
+    .pButton {
+        padding: 3px;
+        font-size: 8px;
+        width: 15px;
+    }
+    .containerButtons {
+        gap: 5px;
+    }
+    .buttonsNav {
+        padding: 2px 4px;
+        font-size: 11px;
     }
 }

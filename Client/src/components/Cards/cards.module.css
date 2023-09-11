@@ -145,3 +145,42 @@
         font-size: 13px;
     }
 }
+
+@media (width <= 426px) {
+    .cardsContainer {
+        width: 90%;
+        margin-top: 18%;
+        gap: 15%;
+    }
+    .cardItem {
+        height: 190px;
+        width: 100px;
+        font-size: 5px;
+    }
+    .cardItem:hover {
+        font-size: 6px;
+    }
+    .name {
+        padding: 2px 6px;
+    }
+    .features {
+        font-size: 6px;
+        padding: 0px 10px;
+    }
+    .buttonClose {
+        padding: 4px;
+        font-size: 7px;
+    }
+    .buttonFavorite {
+        font-size: 9px;
+    }
+    .cardItem:hover .features {
+        font-size: 8px;
+    }
+    .cardItem:hover .name {
+        font-size: 9px;
+    }
+    .cardItem:hover .buttonFavorite {
+        font-size: 11px;
+    }
+}

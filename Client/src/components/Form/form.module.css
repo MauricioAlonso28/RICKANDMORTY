@@ -417,3 +417,38 @@
       transform: translate(60px, -32px) translateZ(0);
     }
 }
+@media (width <= 768px) {
+    .form {
+        top: 30%;
+        height: 300px;
+        width: 220px;
+    }
+    .label {
+        font-size: 16px;
+    }
+    .input {
+        padding: 3px;
+        font-size: 9px;
+    }
+    .btn1 {
+        padding: 4px 10px;
+        font-size: 9px;   
+    }
+    .notHidden {
+        z-index: 3;
+        width: 90%;
+        height: 100%;
+    }
+    .welcome {
+        border-radius: 20px;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        padding: 20px;
+        font-size: 35px;
+    }
+}
+@media (width < 321px) {
+    .welcome {
+        font-size: 30px;
+    }
+}
