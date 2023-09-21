@@ -7,3 +7,11 @@ An app application that features Rick & Morty animated series characters. The ap
 - Filtering and ordering of data
 - CRUD operations
 - REST API requests
+
+
+
+## Stack
+
+**Client:** React, Redux, CSS Modules
+
+**Server:** JavaScript, Node JS, Express
