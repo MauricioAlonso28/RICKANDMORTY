@@ -26,4 +26,12 @@ An app application that features Rick & Morty animated series characters. The ap
 
 **Search Characters**
 
-<img src="./img/search.gif" alt="" width="384" height="216"
+<img src="./img/search.gif" alt="" width="384" height="216"/>
+
+**Favorites**
+
+<img src="./img/favorites.gif" alt="" width="384" height="216"/>
+
+**Detail**
+
+<img src="./img/detail.gif" alt="" width="384" height="216"/>
