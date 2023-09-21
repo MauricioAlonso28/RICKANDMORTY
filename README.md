@@ -15,3 +15,7 @@ An app application that features Rick & Morty animated series characters. The ap
 **Client:** React, Redux, CSS Modules
 
 **Server:** JavaScript, Node JS, Express
+
+
+
+## Screenshots
