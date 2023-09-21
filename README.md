@@ -19,3 +19,6 @@ An app application that features Rick & Morty animated series characters. The ap
 
 
 ## Screenshots
+
+**Login**
+<img src="./img/login.gif" alt="" width="384" height="216" />
