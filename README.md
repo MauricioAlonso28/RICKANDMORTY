@@ -35,3 +35,31 @@ An app application that features Rick & Morty animated series characters. The ap
 **Detail**
 
 <img src="./img/detail.gif" alt="" width="384" height="216"/>
+
+
+## Installation
+
+1.- Clone the repo.
+
+```bash
+  git clone https://github.com/MauricioAlonso28/RICKANDMORTY.git
+```
+
+2.- From the main folder, move to "client" directory and install dependencies.
+
+```bash
+  cd client
+  npm install
+```
+
+3.- From the main folder, move to "server" directory and install dependencies.
+
+```bash
+  cd server
+  npm install
+```
+4.- Run npm start in the terminal, located at the "server" directory. Next, run the same command again this time located in the "client" directory.
+
+```bash
+    npm start
+```
