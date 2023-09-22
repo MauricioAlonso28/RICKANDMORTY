@@ -38,11 +38,11 @@ An app application that features Rick & Morty animated series characters. The ap
 
 **Tablet Responsive**
 
-<img src="./img/detail.gif" alt="" width="384" height="216"/>
+<img src="./img/phoneR.gif" alt="" width="384" height="216"/>
 
 **Phone Responsive**
 
-<img src="./img/detail.gif" alt="" width="384" height="216"/>
+<img src="./img/tabletR.gif" alt="" width="384" height="216"/>
 
 
 ## Installation
