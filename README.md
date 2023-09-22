@@ -36,6 +36,14 @@ An app application that features Rick & Morty animated series characters. The ap
 
 <img src="./img/detail.gif" alt="" width="384" height="216"/>
 
+**Tablet Responsive**
+
+<img src="./img/detail.gif" alt="" width="384" height="216"/>
+
+**Phone Responsive**
+
+<img src="./img/detail.gif" alt="" width="384" height="216"/>
+
 
 ## Installation
 
