@@ -103,6 +103,11 @@ img {
         font-size: 14px;
     }
 }
+@media (width <= 840px) {
+    .title {
+        display: none;
+    }
+}
 @media (width <= 768px){
     .containerButtons {
         gap: 10px;
@@ -128,10 +133,7 @@ img {
         border-radius: 6px;
     }
 }
-@media (width <= 426px) {
-    .title {
-        display: none;
-    }
+@media (width <= 430px) {
     .searchBar {
         display: none;
     }
